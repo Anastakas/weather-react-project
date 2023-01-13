@@ -12,30 +12,44 @@ export default function Weather() {
           <form>
             <div className="row">
               <div className="col-8">
-                <input type="search" placeholder="Type a city" />
+                <input
+                  type="search"
+                  placeholder="Type a city"
+                  className="form-control"
+                />
               </div>
               <div className="col-4">
-                <input type="submit" value="Submit" />
+                <input
+                  type="submit"
+                  value="Submit"
+                  className="btn btn-primary w-100"
+                />
               </div>
             </div>
           </form>
         </div>
       </div>
-      <ul>
+      <ul className="date">
         <li>Monday</li>
         <li>12:05</li>
       </ul>
       <div className="row">
         <div className="col-8">
-          <img
-            src="http://openweathermap.org/img/wn/04d@2x.png"
-            alt="Overcast clouds"
-          />
-          <strong>-3 ℃ </strong>
-          <spin>Overcast clouds</spin>
+          <div className="d-flex">
+            <img
+              src="http://openweathermap.org/img/wn/04d@2x.png"
+              alt="Overcast clouds"
+            />
+
+            <span className="temperature">-3</span>
+            <span className="units">℃</span>
+
+            <span className="description">Overcast clouds</span>
+          </div>
         </div>
+
         <div className="col-4">
-          <ul>
+          <ul className="options">
             <li>Humidity: 92 %</li>
             <li>Pressure: 1022 mb</li>
             <li>Wind: 1 km/h</li>
