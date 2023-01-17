@@ -17,6 +17,11 @@
 .Weather li {
   list-style: none;
 }
+.Weather canvas {
+  height: 64px;
+  width: 64px;
+  margin: 18px 5px 0 15px;
+}
 
 .Weather .btn-primary {
   background-color: #ffff;
@@ -41,7 +46,7 @@
 }
 .Weather .description {
   font-size: 18px;
-  margin: 19px 0 0 20px;
+  margin: 22px 0 0 20px;
 }
 .Weather .options {
   text-align: left;
