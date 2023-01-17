@@ -6,7 +6,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container-flex">
-        <Weather defaultCity="Kyiv"/>
+        <Weather defaultCity="Kyiv" />
 
         <footer>
           Coded by Anastasiya Kasilova and{" "}
