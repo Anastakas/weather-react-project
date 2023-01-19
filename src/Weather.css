@@ -53,3 +53,6 @@
   margin-top: 20px;
   padding: 0;
 }
+.Weather a {
+  text-decoration: none;
+}
