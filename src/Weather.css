@@ -17,9 +17,8 @@
 .Weather li {
   list-style: none;
 }
-.Weather canvas {
-  height: 64px;
-  width: 64px;
+.WeatherInfo canvas {
+ 
   margin: 18px 5px 0 15px;
 }
 
